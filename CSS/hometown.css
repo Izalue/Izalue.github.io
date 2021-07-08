@@ -2,9 +2,6 @@
   margin: 0;
   padding: 0;
 }
-html {
-  height: 200%;
-}
 
 body {
   background: -webkit-linear-gradient(
@@ -74,41 +71,33 @@ body {
 .content nav ul li a:hover {
   color: saddlebrown;
 }
-.content .schools {
-  width: 750px;
-  height: 100%;
+.content .food {
+  width: 800px;
+  height: 800px;
   float: right;
-  margin-right: 30px;
-}
-.content .schools .school {
-  height: 30%;
-  margin: 10px 0;
-  border-bottom: 1px solid skyblue;
-}
-.content .schools .school .description {
-  width: 500px;
-  height: 100%;
-  float: left;
-  padding: 10px;
 }
 
-.content .schools .school .description .dtext {
-  color: azure;
-  text-align: left;
-  font-size: 14px;
+.content .food h1 {
+  margin: 20px;
+  border-bottom: 2px solid rgb(37, 168, 55);
+  color: antiquewhite;
+  line-height: 70px;
 }
-.school .description .dtit {
-  color: snow;
-  height: 40px;
-  font-size: 1.8em;
-  width: 400px;
-  border-bottom: 1px solid skyblue;
-  padding: 8px;
-  margin: 8px 0;
+
+.content .food table {
+  border-spacing: 20px 10px;
 }
-.content .schools .school img {
-  width: 200px;
-  height: 135px;
-  float: right;
-  margin: 60px 0;
+.content .food table td {
+  width: 230px;
+  height: 230px;
+}
+.content .food table td .text {
+  margin: 0 auto;
+  color: antiquewhite;
+  width: 100px;
+  text-align: center;
+}
+.content .food table td img {
+  width: 230px;
+  height: 200px;
 }
